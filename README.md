@@ -1,4 +1,4 @@
-# 🎧 Audio Segmentation with inaSpeechSegmenter
+#  Audio Segmentation with inaSpeechSegmenter
 
 This guide walks you through using the [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) tool for segmenting an audio file into speech, music, and noise sections.
 
