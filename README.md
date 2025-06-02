@@ -25,12 +25,6 @@ cd /home/ssl/Downloads/
 
 ---
 
-## Convert MP3 to WAV
-inaSpeechSegmenter works best with WAV files. Convert the MP3:
-```bash
-ffmpeg -i "Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" "top_singer.wav"
-```
-
 ---
 ## Segment the Audio Using inaSpeechSegmenter
 
