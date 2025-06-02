@@ -1,4 +1,4 @@
-# Audio Segmentation with inaSpeechSegmenter
+# 🎧 Audio Segmentation with inaSpeechSegmenter
 
 This guide walks you through using the [inaSpeechSegmenter](https://github.com/ina-foss/inaSpeechSegmenter) tool for segmenting an audio file into speech, music, and noise sections.
 
@@ -24,23 +24,15 @@ cd /home/ssl/Downloads/
 ```
 
 ---
-## Segment the Audio Using inaSpeechSegmenter
 
-```bash
- python inaSpeechSegmenter.py -i "/home/ssl/Downloads/Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" -o ~/ina_output
-```
-
-here,
-
-Inputs: the mp3 file.
-
-Outputs: the segmentation results into ~/ina_output/.
-
-If mp3 file doesn't work then convert it into wav. Since inaSpeechSegmenter works best with WAV files
+## Convert MP3 to WAV
+inaSpeechSegmenter works best with WAV files. Convert the MP3:
 ```bash
 ffmpeg -i "Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" "top_singer.wav"
 ```
+
 ---
+
 
 ## Segment the Audio Using inaSpeechSegmenter
 
@@ -71,9 +63,9 @@ sonic-visualiser
 ```
 In Sonic Visualiser:
 
-File → Open → select top_singer.wav
+File -> Open -> select top_singer.wav
 
-Layer → Import Annotation Layer → From CSV File → select top_singer.csv
+Layer → Import Annotation Layer → From CSV File -> select top_singer.csv-> make heading as label - time - end time->tick-first row contains column heading->time is specified explicitly in seconds->ok->plot type-segmentation
 
 You’ll see labeled segments aligned with the waveform.
 
