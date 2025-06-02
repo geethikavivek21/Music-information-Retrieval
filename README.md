@@ -75,6 +75,8 @@ Tick-first row contains column heading
 
 Time is specified explicitly in seconds->ok
 
+On the right plane
+
 Plot type-segmentation
 
 ![Segmentation Preview](image.png)
