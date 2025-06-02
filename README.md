@@ -18,7 +18,7 @@ pip install torch tensorflow inaSpeechSegmenter
 ---
 
 ## Navigate to Your Audio File Directory
-Change directory to where your MP3 file and Segmenter.py file is stored:
+Change directory to where your MP3 file and inaSpeechSegmenter.py file is stored:
 ```bash
 cd /home/ssl/Downloads/
 ```
