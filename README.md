@@ -83,6 +83,6 @@ This will display the timestamps and segmented labels.
 sonic-visualiser
 ```
 
-2️ Load the mp3/wav File: (File > Open > select top_singer.mp3).
+2️ Load the mp3/wav File: (File > Open > select file,here topsinger in mp3 format).
 
 3️ Import Labels Automatically: (File > Import Annotation > select top_singer.csv > select correct data format-Label,Time,End Time >Tick-first row contains column heading > Time is specified-Explicitly in seconds > Plot type -Segmentation).
