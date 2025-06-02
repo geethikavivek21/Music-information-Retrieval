@@ -50,7 +50,7 @@ ina_speech_segmenter.py -i "/home/ssl/Downloads/Top Singer _ Musical Reality Sho
 here,
 
 Inputs: the mp3 file.
----
+
 Outputs: the segmentation results into ~/ina_output/.
 
 If mp3 file doesn't work then convert it into wav. Since inaSpeechSegmenter works best with WAV files
