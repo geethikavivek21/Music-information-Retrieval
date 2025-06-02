@@ -69,7 +69,7 @@ File -> Open -> select top_singer.wav
 
 Layer -> Import Annotation Layer -> From CSV File -> select top_singer.csv
 
-Make heading of firt column as label - second column as time -and third column as- end time
+Make heading of first column as label - second column as time -and third column as- end time
 
 Tick-first row contains column heading
 
