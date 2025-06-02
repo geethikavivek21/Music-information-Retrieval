@@ -77,7 +77,7 @@ Time is specified explicitly in seconds->ok
 
 Plot type-segmentation
 
-![Segmentation Preview](Screenshot from 2025-05-30 17-17-30.png)
+![Segmentation Preview](image.png)
 
  image_url https://github.com/geethikavivek21/Music-information-Retrieval/blob/5a37f4b7352c7cb6feba18f5bd7d56208d70f4ce/Screenshot%20from%202025-05-30%2017-17-30.png
 
