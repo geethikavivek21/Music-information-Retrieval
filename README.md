@@ -32,15 +32,23 @@ ffmpeg -i "Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" "top_singer
 ```
 
 ---
-
-
 ## Segment the Audio Using inaSpeechSegmenter
 
 ```bash
-Segmenter.py -i "/home/ssl/Downloads/top_singer.wav" -o ~/Downloads/ina_output
-
-
+inaSpeechSegmenter.py -i "/home/ssl/Downloads/Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" -o ~/ina_output
 ```
+
+here,
+
+Inputs: the mp3 file.
+
+Outputs: the segmentation results into ~/ina_output/.
+
+If mp3 file doesn't work then convert it into wav. Since inaSpeechSegmenter works best with WAV files
+```bash
+ffmpeg -i "Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" "top_singer.wav"
+```
+---
 
 ---
 
