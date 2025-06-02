@@ -63,7 +63,7 @@ sonic-visualiser
 
 
 ```
-In Sonic Visualiser:
+## In Sonic Visualiser:
 
 File -> Open -> select top_singer.wav
 
