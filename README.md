@@ -75,7 +75,9 @@ Tick-first row contains column heading
 
 Time is specified explicitly in seconds->ok
 
-## On the right side
+## On the right pane
+
+Colour:Green
 
 Scale: Equally spaced
 
