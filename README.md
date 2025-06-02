@@ -27,7 +27,7 @@ cd /home/ssl/Downloads/
 ## Segment the Audio Using inaSpeechSegmenter
 
 ```bash
-ina_speech_segmenter.py -i "/home/ssl/Downloads/Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" -o ~/ina_output
+ python inaSpeechSegmenter.py -i "/home/ssl/Downloads/Top Singer _ Musical Reality Show _ Flowers _ Ep# 09.mp3" -o ~/ina_output
 ```
 
 here,
