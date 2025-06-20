@@ -63,19 +63,25 @@ sonic-visualiser
 
 
 ```
-In Sonic Visualiser:
+## In Sonic Visualiser:
 
 File -> Open -> select top_singer.wav
 
 Layer -> Import Annotation Layer -> From CSV File -> select top_singer.csv
 
-Make heading of firt column as label - second column as time -and third column as- end time
+Make heading of first column as label - second column as time -and third column as- end time
 
 Tick-first row contains column heading
 
 Time is specified explicitly in seconds->ok
 
-Plot type-segmentation
+## On the right pane
+
+Colour:Green
+
+Scale: Equally spaced
+
+Plot type: segmentation
 
 ![Segmentation Preview](image.png)
 
@@ -84,6 +90,7 @@ Plot type-segmentation
 ![Segmentation Preview](output.png)
 
 You’ll see labeled segments aligned with the waveform.
+
 
 ## Optional: Install Sonic Visualiser
 If not already installed:
