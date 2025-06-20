@@ -81,6 +81,8 @@ Plot type-segmentation
 
  image_url https://github.com/geethikavivek21/Music-information-Retrieval/blob/5a37f4b7352c7cb6feba18f5bd7d56208d70f4ce/Screenshot%20from%202025-05-30%2017-17-30.png
 
+![Segmentation Preview](output.png)
+
 You’ll see labeled segments aligned with the waveform.
 
 ## Optional: Install Sonic Visualiser
