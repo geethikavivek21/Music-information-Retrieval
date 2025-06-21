@@ -1,8 +1,3 @@
-Based on your **previous conversation**, here's exactly how you installed and used **Whisper** to transcribe Tamil audio on your Linux system:
-
----
-
-## ✅ Whisper Setup from Previous Conversation
 
 ### Step 1: You installed Whisper with pip
 
