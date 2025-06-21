@@ -1,5 +1,5 @@
 
-### Step 1: You installed Whisper with pip
+### Step 1: install Whisper with pip
 
 ```bash
 pip install git+https://github.com/openai/whisper.git
@@ -7,7 +7,7 @@ pip install git+https://github.com/openai/whisper.git
 
 ---
 
-### 🔧 Step 2: You installed `ffmpeg` (required for audio processing)
+### 🔧 Step 2: install `ffmpeg` (required for audio processing)
 
 ```bash
 sudo apt install ffmpeg
@@ -15,20 +15,18 @@ sudo apt install ffmpeg
 
 ---
 
-### Step 3: You created and activated a Conda environment
+### Step 3: Created and activated a Conda environment
 
-You attempted this but had some environment issues:
+
 
 ```bash
 conda create -n whisper_env python=3.9 -y
 conda activate whisper_env
 ```
 
-> At some point, you were inside `(whisper_env)` — although later the environment seemed broken.
-
 ---
 
-### 📂 Step 4: You ran Whisper from your Downloads directory
+### 📂 Step 4: Run  Whisper from your Downloads directory
 
 You navigated to the folder:
 
@@ -36,7 +34,7 @@ You navigated to the folder:
 cd ~/Downloads
 ```
 
-And ran the transcription command:
+And run the transcription command:
 
 ```bash
 whisper "yodha padakali tamil.mp3" --language ta --model medium --fp16 False
